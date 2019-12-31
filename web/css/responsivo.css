@@ -23,8 +23,41 @@
 		height: 26px;
 	}
 
+	/* Produtos */
 
+	.produto_item h2 {
+		top: -150px;
+		margin-bottom: -56px;
+	  }
+
+	.produto_icone {
+		padding: 41px 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: 122px;
+	}
+
+	.produto_info ul li {
+		background: #FEC63E;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 20px;
+		float: left;
+		width: 181px;
+		height: 49px;
+		text-align: center;
+		padding-top: 16px;  
+	  }
+	  
+	  
 }
+
+
 
 /* Estilo para smartphone */
 @media only screen and (max-width: 787px) {
@@ -100,6 +133,5 @@
 		font-size: 14px;
 		line-height: 25px;
 	}  
-
-
 }
+
