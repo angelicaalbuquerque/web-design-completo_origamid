@@ -42,19 +42,9 @@
 	}
 
 	.produto_info ul li {
-		background: #FEC63E;
-		text-transform: uppercase;
-		font-size: 18px;
-		font-weight: bold;
-		line-height: 20px;
-		float: left;
 		width: 181px;
-		height: 49px;
-		text-align: center;
-		padding-top: 16px;  
 	  }
-	  
-	  
+	  	  
 }
 
 
@@ -132,6 +122,40 @@
 	.historia_sobre ul li {
 		font-size: 14px;
 		line-height: 25px;
-	}  
+	} 
+	
+	/* Produtos */
+
+	.produto_item h2 {
+		top: -100px;
+		margin-bottom: -68px;
+		}
+
+	.produto_icone {
+		padding: 41px 0;
+	}
+
+	.produto_info p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+		height: auto;
+	}
+
+	.produto_info ul li {
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 16px;
+	}
+
+	.form {
+		padding-right: 0px;
+	}
+	
+	.orcamento_dados ul {
+		padding-right: 0px;
+	}
 }
 
